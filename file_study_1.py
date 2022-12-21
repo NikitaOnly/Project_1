@@ -12,4 +12,4 @@ with open('marks.txt', 'r', encoding='utf-8') as file:
         line += 1
         if gr_point < 3:
             print('Оценка ниже 3 - ', i[:])
-print('Средний балл: %.2f' % (sum/line))
+print(f'Средний балл: {sum/line}')
